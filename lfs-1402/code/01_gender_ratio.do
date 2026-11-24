@@ -1,4 +1,4 @@
-* Q1: gender composition of university graduates, urban vs rural
+* Gender composition of university graduates, urban vs rural
 
 use "$data/LFS1402.dta", clear
 

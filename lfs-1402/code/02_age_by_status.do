@@ -1,4 +1,4 @@
-* Q2: non-employed population by activity status, and the mean age of each group
+* Non-employed population by activity status, and the mean age of each group
 
 use "$data/LFS1402.dta", clear
 

@@ -17,14 +17,14 @@ Main variables: area from the 5th digit of `pkey`, gender `F2_D04`, age `F2_D07`
 
 ## Results
 
-**Q1. University graduates by area and gender**
+**University graduates by area and gender**
 
 | Area | Men | Women | Men (%) | Women (%) |
 |---|---:|---:|---:|---:|
 | Urban | 32,803 | 30,996 | 51.4 | 48.6 |
 | Rural | 6,762 | 5,812 | 53.8 | 46.2 |
 
-**Q2. Non-employed population by activity status**
+**Non-employed population by activity status**
 
 | Status | N | Share (%) | Mean age |
 |---|---:|---:|---:|
@@ -36,7 +36,7 @@ Main variables: area from the 5th digit of `pkey`, gender `F2_D04`, age `F2_D07`
 
 ![](output/employment_status_pie.png)
 
-**Q3. Insurance coverage of employed university graduates**
+**Insurance coverage of employed university graduates**
 
 The insurance question is asked only of people in work, so the sample is employed graduates who answered it.
 
@@ -48,7 +48,7 @@ The insurance question is asked only of people in work, so the sample is employe
 
 ![](output/insurance_status.png)
 
-**Q4. Mean years in current job and total experience**
+**Mean years in current job and total experience**
 
 | Sector | Group | Current job | Total experience |
 |---|---|---:|---:|

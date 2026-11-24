@@ -25,8 +25,8 @@ $$
 - **Outcome:** annual education spending, the sum of all items in COICOP division 10 in the annual expenditure table, in million rials. Households with no education items are set to zero (58% of the sample).
 - **Income:** annual net income from all wage jobs and self-employment of household members, in million rials.
 - **Urban:** first digit of the household address code is 1. **Province:** digits 2-3 of the address code.
-- **Columns:** Q3 income only; Q5a adds the urban dummy; Q5b adds the income × urban interaction; Q7 adds the age of the household head; Q8 the same with robust standard errors; Q9 adds province fixed effects.
-- **Standard errors:** conventional OLS in Q3-Q7, heteroskedasticity-robust (HC1) in Q8-Q9. Survey weights are not used.
+- **Columns:** (1) income only; (2) adds the urban dummy; (3) adds the income × urban interaction; (4) adds the age of the household head; (5) same as (4) with robust standard errors; (6) adds province fixed effects.
+- **Standard errors:** conventional OLS in columns (1)-(4), heteroskedasticity-robust (HC1) in (5)-(6). Survey weights are not used.
 
 ## Results
 
@@ -36,7 +36,7 @@ Mean education spending is 3.8 million rials in rural households and 10.0 millio
 
 Dependent variable: annual education spending (million rials)
 
-| | Q3 | Q5a | Q5b | Q7 | Q8 | Q9 |
+| | (1) | (2) | (3) | (4) | (5) | (6) |
 |---|---:|---:|---:|---:|---:|---:|
 | Labour income | 0.0058*** | 0.0055*** | 0.0022*** | 0.0022*** | 0.0022*** | 0.0017*** |
 | | (0.0002) | (0.0002) | (0.0003) | (0.0003) | (0.0005) | (0.0004) |
@@ -55,4 +55,4 @@ Dependent variable: annual education spending (million rials)
 
 \* p<0.10, \*\* p<0.05, \*\*\* p<0.01
 
-An extra million rials of labour income goes with about 2,200 rials more education spending in rural households and about 7,600 rials in urban households (Q7). Once the interaction is included, the urban dummy itself is small and not significant, so the urban-rural gap in spending comes mostly through income. The R² stays below 5%: income explains little of the variation in education spending. These are associations, not causal effects; household size, number of school-age children and parental education are left out.
+An extra million rials of labour income goes with about 2,200 rials more education spending in rural households and about 7,600 rials in urban households (column 4). Once the interaction is included, the urban dummy itself is small and not significant, so the urban-rural gap in spending comes mostly through income. The R² stays below 5%: income explains little of the variation in education spending. These are associations, not causal effects; household size, number of school-age children and parental education are left out.

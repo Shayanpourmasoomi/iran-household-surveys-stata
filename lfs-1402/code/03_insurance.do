@@ -1,4 +1,4 @@
-* Q3: insurance coverage of employed university graduates, by gender
+* Insurance coverage of employed university graduates, by gender
 
 use "$data/LFS1402.dta", clear
 

@@ -1,4 +1,4 @@
-* Q4: years in the current job and total work experience, by sector and gender
+* Years in the current job and total work experience, by sector and gender
 
 use "$data/LFS1402.dta", clear
 
